@@ -1,7 +1,2 @@
-根据《Attention Is All You Need》、Annotated Transformer源代码以及我的理解实现一个最简Transformer模型，并实现中英翻译任务。
+完整Transformer模型，在小数据上实现中英翻译任务及消融实验分析。
 
-模型架构	  4层/256d/4头	完全复现\
-训练稳定性	Loss 10→3 稳定下降\
-翻译质量	  3/4 句子语义正确\
-BLEU 分数	  10.05	\
-代码完整性	数据加载→训练→推理全流程
